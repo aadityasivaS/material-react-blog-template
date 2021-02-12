@@ -42,25 +42,25 @@ export default function RecipeReviewCard(props) {
   let content = props.content;
   return (
     <Card className={classes.root}>
+      <CardHeader
+        avatar={
+          <Avatar aria-label="recipe" className={classes.avatar}>
+            {props.author.substring(0, 1)}
+          </Avatar>
+        }
+        action={
+          <IconButton aria-label="settings">
+            <MoreVertIcon />
+          </IconButton>
+        }
+        title={props.title}
+        subheader={`By ${props.author}`}
+      />
       <CardActionArea>
-        <CardHeader
-          avatar={
-            <Avatar aria-label="recipe" className={classes.avatar}>
-              L
-            </Avatar>
-          }
-          action={
-            <IconButton aria-label="settings">
-              <MoreVertIcon />
-            </IconButton>
-          }
-          title="How to code"
-          subheader="By Lorm Ipsum"
-        />
         <CardMedia
           className={classes.media}
-          image="https://picsum.photos/id/1/600/400"
-          title={props.title}
+          image={`https://picsum.photos/id/${Math.floor(Math.random() * 800) + 1}/600/400`}
+          title="Lf"
         />
         <CardContent>
           <Typography variant="body2" color="textSecondary" component="p">
