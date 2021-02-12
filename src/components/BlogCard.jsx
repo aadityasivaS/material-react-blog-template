@@ -59,7 +59,7 @@ export default function RecipeReviewCard(props) {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image={`https://picsum.photos/id/${Math.floor(Math.random() * 800) + 1}/600/400`}
+          image={`https://picsum.photos/id/${Math.floor(Math.random() * 600) + 1}/600/400`}
           title="Lf"
         />
         <CardContent>
