@@ -1,3 +1,7 @@
 body {
     margin: 0;
+    overflow-x: hidden;
+}
+.edge-spacing {
+    padding: 10px;
 }
