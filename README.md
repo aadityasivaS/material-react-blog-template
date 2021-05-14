@@ -12,4 +12,5 @@ git clone https://github.com/aadityasiva/material-react-blog-template.git my-blo
 cd my-blog
 yarn install
 ```
+
 <p align="center">© 2021 Made with ❤ from Aadityasiva and contributors</p>
